@@ -19,7 +19,7 @@ function App() {
               <AllCategories />
       </div> 
       <div className='block'> 
-              <Items /> Ф
+              <Items /> 
               <Footer />
               <ScrollButton />
     </div>
