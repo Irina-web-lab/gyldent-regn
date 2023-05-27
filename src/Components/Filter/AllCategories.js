@@ -4,7 +4,7 @@ const AllCategories = () => {
     return (
         <div className="btn-category">
            {['RINGER', 'ØREDOBBER', 'KJEDER', 'KLOKKER', 'ALL']
-            .map((category, id) => <Filter category={category}  key={id}/>
+            .map((category, index) => <Filter category={category}  key={index}/>
             )}             
         </div>
 )
